@@ -1,7 +1,7 @@
 # Amazon-Reviews-Rating-Prediction
 ## Overview
 
-Welcome to the Amazon Reviews Rating Prediction project! This repository houses a fine-tuned BERT-based model designed to predict ratings on a scale of 1 to 5 for Amazon product reviews. The model has been trained on a carefully curated subset of 50,000 reviews from the expansive Amazon Customer Reviews dataset. Leveraging the power of a pretrained BERT base model, our goal is to provide accurate and insightful predictions for your Amazon reviews.
+Welcome to the Amazon Reviews Rating Prediction project! This repository contains a fine-tuned BERT-based model designed to predict ratings on a scale of 1 to 5 for Amazon product reviews. The model has been trained on a carefully curated subset of 50,000 reviews from the expansive Amazon Customer Reviews dataset. Leveraging the power of a pretrained BERT base model, our goal is to provide accurate and insightful predictions for your Amazon reviews.
 
 ## Model Details
 
