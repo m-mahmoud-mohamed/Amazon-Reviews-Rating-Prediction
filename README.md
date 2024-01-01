@@ -17,10 +17,9 @@ Experience the power of our model effortlessly by accessing it on Hugging Face. 
 ## Docker Image
 
 We understand the importance of ease in deployment. Therefore, we provide a Docker image on Docker Hub, allowing you to utilize the model with just a few simple commands. Whether you have a single text review or an entire CSV file of reviews, our Docker image has you covered.
+[link](https://hub.docker.com/repository/docker/mahmoudmohamedmahmoud/amazon_review/general)
 
-### Usage with Docker
-
-1. **Pull the Docker image:**
+**Pull the Docker image:**
 
    ```bash
    docker pull mahmoudmohamedmahmoud/amazon_review:latest
