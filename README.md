@@ -1,21 +1,28 @@
 # Amazon-Reviews-Rating-Prediction
 ## Overview
 
-This repository contains a BERT-based model trained on a dataset of over 1 million Amazon reviews to predict ratings on a scale of 1 to 5.
+Welcome to the Amazon Reviews Rating Prediction project! This repository houses a fine-tuned BERT-based model designed to predict ratings on a scale of 1 to 5 for Amazon product reviews. The model has been trained on a carefully curated subset of 50,000 reviews from the expansive Amazon Customer Reviews dataset. Leveraging the power of a pretrained BERT base model, our goal is to provide accurate and insightful predictions for your Amazon reviews.
 
 ## Model Details
 
-- **Model Architecture:** BERT Base
+- **Architecture:** BERT Base
+- **Fine-Tuning Data:** 50,000 Amazon reviews subset
 - **Task:** Amazon Reviews Rating Prediction
-- **Dataset:** 1 million Amazon reviews
 - **Rating Scale:** 1 to 5
 
 ## Model Availability
 
-The pre-trained model is available on Hugging Face. You can use it directly in your projects  by following this [link](https://huggingface.co/MahmoudMohamed/Amazon_rating_review_model).
+Experience the power of our model effortlessly by accessing it on Hugging Face. Simply follow this [link](https://huggingface.co/MahmoudMohamed/Amazon_rating_review_model) to integrate the model into your projects.
 
 ## Docker Image
 
-A Docker image is available on Docker Hub, making it easy for users to deploy and use the model. The Docker image takes either a text review or a CSV file containing reviews and returns rating predictions [link](https://hub.docker.com/repository/docker/mahmoudmohamedmahmoud/amazon_review/general).
+We understand the importance of ease in deployment. Therefore, we provide a Docker image on Docker Hub, allowing you to utilize the model with just a few simple commands. Whether you have a single text review or an entire CSV file of reviews, our Docker image has you covered.
+
+### Usage with Docker
+
+1. **Pull the Docker image:**
+
+   ```bash
+   docker pull mahmoudmohamedmahmoud/amazon_review:latest
 
 
