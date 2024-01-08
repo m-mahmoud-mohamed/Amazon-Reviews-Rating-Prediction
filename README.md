@@ -10,7 +10,7 @@ Sample output from the Model
 ## Model Details
 
 - **Architecture:** BERT Base
-- **Fine-Tuning Data:** 50,000 Amazon reviews subset
+- **Fine-Tuning Data:** 500,000 Amazon reviews subset
 - **Task:** Amazon Reviews Rating Prediction
 - **Rating Scale:** 1 to 5
 
